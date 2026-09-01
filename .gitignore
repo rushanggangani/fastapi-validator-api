@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+
+# Secrets and Keys
+.env
+*.pem
+*.key
+*.json  # Good if you download GCP service account keys
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Terraform local state and binaries
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
